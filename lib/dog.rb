@@ -22,7 +22,7 @@ class Dog
 
   def self.print_all
     @@all.each {|puppy| puts "#{puppy}"}
-  binding.pry
+    binding.pry
   end
 
 end
