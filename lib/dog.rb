@@ -21,8 +21,7 @@ class Dog
   end
 
   def self.print_all
-    puppies = @@all.each {|puppy| puts "#{puppy}"}
-    puts puppies
+    @@all.each {|puppy| puts "#{puppy}"}
   binding.pry
   end
 
