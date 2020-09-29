@@ -4,5 +4,6 @@ class Dog
 
   def intitialize(name)
     @name = name
+  end
 
 end
